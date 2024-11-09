@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 50px;
+            width: 50px;
+            border: 2px solid;
+            border-radius: 1000px;
+            background-color: chocolate;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+            position: relative;
+        }
+        @keyframes example{
+           0%{
+            background-color: chocolate;
+            top: 0px;
+            left: 100px;
+        }
+           50%{
+            background-color: cadetblue;
+            top: 100px;
+            left: 100px;        
+        
+        }
+           100%{
+            background-color: blueviolet;
+            top: 100px;
+            left: 0px;
+        }
+          /* from{
+            background-color: blanchedalmond;
+            top: 0px;
+            left: 100px;
+            
+        }
+          to{ 
+            background-color: blue;
+            margin-left: 700px; */
+        }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
